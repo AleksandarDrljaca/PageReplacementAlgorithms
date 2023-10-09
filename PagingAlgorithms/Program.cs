@@ -62,7 +62,7 @@ namespace Program
                         break;
                     case "Optimal":
                         Console.WriteLine("Simulation results:\nOptimal");
-                        Optimal(numOfFrames, reference);
+                        Optimal(numOfFrames, references);
                         break;
                     default:
                         Console.WriteLine("Error!");
