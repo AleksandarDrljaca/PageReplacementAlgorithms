@@ -63,7 +63,7 @@ namespace MemManagementSim
                 else if (queue.Contains(r) && queue.Count() <= num_of_frames)
                 {
 
-                    // na indexno mjesto stavljam onaj sa vrha, a na vrh taj s indexa
+                    
                     Queue<int> temp = new();
                     for (int i = 0; i < num_of_frames; i++)
                         temp.Enqueue(queue.ElementAt(i));
